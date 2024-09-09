@@ -40,9 +40,7 @@
 # numbers = [15, 3, 8, 42, 3, 23, 8, 7, 42, 1, 9, 23, 15, 5, 9, 4, 6, 1]
 # lst = []
 # for item in numbers:
-#     if item in lst:
-#         continue
-#     else:
+#     if item not in lst:
 #         lst.append(item)
 # print(sorted(lst))
 
@@ -69,7 +67,7 @@ import string
 # del products["milk"]
 #
 # for key in products.keys():
-#     products[key]["price"] += (products[key]["price"] * 20) / 100
+#     products[key]["price"] *= 1.2
 #
 # products["Salt"] = {"quantity": 7, "price": 12}
 #
@@ -92,7 +90,7 @@ import string
 # print(info)
 #
 # task 3
-# message = "2__234йшDGмёшSDFжкъrrrщзнSDF78юкйфуSDFшёью$#2Sшжйи3%узфsdf34нкфыvvя"
+# message = "2__234йшDGмёшSDFжкъrrrщзнSDF78юкйфуSDFшёью$#2Sшжйи3%узфsdf34нкфыvvя" #2__234сеDGкреSDFтныrrrйплSDF78ансовSDFерша$#2Sется3%впоsdf34лночvvя
 # length = len(message)
 # decode = ""
 #
@@ -138,4 +136,4 @@ import string
 #     if char not in (string.punctuation + string.ascii_lowercase + " ") and char not in dct:
 #         dct[char] = dlg.count(char)
 # print(dct)
-# print(f"key = {max(dct, key=dct.get)}\nvalue = {max(dct.values())}") #
+# print(f"key = {max(dct, key=dct.get)}, value = {max(dct.values())}")
