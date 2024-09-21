@@ -137,5 +137,3 @@ import string
 #         dct[char] = dlg.count(char)
 # print(dct)
 # print(f"key = {max(dct, key=dct.get)}, value = {max(dct.values())}")
-
-
