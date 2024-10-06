@@ -13,6 +13,7 @@
 # print("Area: ", a)# Вернул 8
 # p = rect.perimeter()
 # print("Perimeter: ", p) # Вернул 6
+import string
 
 # task 2
 # class Car:
@@ -75,3 +76,14 @@
 # jack_account.withdraw(100)
 # print(jack_account.get_balance())
 
+
+# def encode(st):
+#     for char in st:
+#         if char in string.punctuation or char.isdigit() or char == " ":
+#             continue
+#         else:
+#             st = st.replace(char, str(string.ascii_letters.index(char.lower()) + 1))
+#             print(st)
+#     return st
+#
+#
