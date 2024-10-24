@@ -32,7 +32,7 @@
 #
 # print(average(1,2,3,4,5,6,7,8))
 
-task4
+#task4
 def common_strings(list1, list2, ignore_case=True):
     list_common = []
     if ignore_case:

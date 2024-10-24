@@ -42,3 +42,7 @@ import string
 #             print("Ещё увидимся!")
 #             break
 # request_action()
+
+def func1(a, b):
+    func2 = lambda a, b: a+ b
+    return func2(a, b)

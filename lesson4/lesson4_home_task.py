@@ -40,15 +40,18 @@ from functions import *
 #     def get_b(b):
 #         return a + b
 #     return get_b
+#
+# m = 3
+# n = 4
+#
+# a = []
+# for i in range(n):
+#     a.append([0] * m)
+#
+# print(a)
 
-m = 3
-n = 4
 
-a = []
-for i in range(n):
-    a.append([0] * m)
 
-print(a)
 
 
 
